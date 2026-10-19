@@ -3,11 +3,11 @@
   "location": null,
   "name": "vnet-foundation-dev",
   "properties": {
-    "correlationId": "d69ab762-ccc8-4fe7-8502-563af701d68b",
+    "correlationId": "c3ce26ca-2467-41df-85e3-b99dfb5b7e99",
     "debugSetting": null,
     "dependencies": [],
     "diagnostics": null,
-    "duration": "PT8.0386058S",
+    "duration": "PT6.012189S",
     "error": null,
     "extensions": [],
     "mode": "Incremental",
@@ -98,7 +98,7 @@
     "provisioningState": "Succeeded",
     "templateHash": "8188894509847599011",
     "templateLink": null,
-    "timestamp": "2026-10-19T13:42:09.692949+00:00",
+    "timestamp": "2026-10-19T18:44:52.124873+00:00",
     "validatedResources": null,
     "validationLevel": null
   },
