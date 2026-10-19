@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": { "value": "vnet-foundation-test" },
+    "vnetAddressPrefix": { "value": "10.20.0.0/16" },
+    "subnets": {
+      "value": [
+        { "name": "snet-web", "addressPrefix": "10.20.1.0/24" },
+        { "name": "snet-app", "addressPrefix": "10.20.2.0/24" }
+      ]
+    },
+    "tags": { "value": { "env": "test", "project": "iac-foundation" } }
+  }
+}
