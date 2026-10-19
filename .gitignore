@@ -2,4 +2,5 @@
 *.tfstate
 *.tfstate.*
 *.tfplan
-crash.logbicep/main.json
+crash.log
+bicep/main.json
