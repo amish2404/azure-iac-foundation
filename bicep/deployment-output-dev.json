@@ -1,0 +1,108 @@
+{
+  "id": "/subscriptions/90c9a3a2-f08a-4c75-ac8e-f67ec538d1b1/resourceGroups/rg-iac-bicep-dev/providers/Microsoft.Resources/deployments/vnet-foundation-dev",
+  "location": null,
+  "name": "vnet-foundation-dev",
+  "properties": {
+    "correlationId": "d69ab762-ccc8-4fe7-8502-563af701d68b",
+    "debugSetting": null,
+    "dependencies": [],
+    "diagnostics": null,
+    "duration": "PT8.0386058S",
+    "error": null,
+    "extensions": [],
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "apiVersion": null,
+        "extension": null,
+        "id": "/subscriptions/90c9a3a2-f08a-4c75-ac8e-f67ec538d1b1/resourceGroups/rg-iac-bicep-dev/providers/Microsoft.Network/virtualNetworks/vnet-foundation-dev",
+        "identifiers": null,
+        "resourceGroup": "rg-iac-bicep-dev",
+        "resourceType": "Microsoft.Network/virtualNetworks"
+      }
+    ],
+    "outputs": {
+      "subnetIds": {
+        "type": "Array",
+        "value": [
+          "/subscriptions/90c9a3a2-f08a-4c75-ac8e-f67ec538d1b1/resourceGroups/rg-iac-bicep-dev/providers/Microsoft.Network/virtualNetworks/vnet-foundation-dev/subnets/snet-web",
+          "/subscriptions/90c9a3a2-f08a-4c75-ac8e-f67ec538d1b1/resourceGroups/rg-iac-bicep-dev/providers/Microsoft.Network/virtualNetworks/vnet-foundation-dev/subnets/snet-app"
+        ]
+      },
+      "vnetId": {
+        "type": "String",
+        "value": "/subscriptions/90c9a3a2-f08a-4c75-ac8e-f67ec538d1b1/resourceGroups/rg-iac-bicep-dev/providers/Microsoft.Network/virtualNetworks/vnet-foundation-dev"
+      }
+    },
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "indiasouthcentral"
+      },
+      "subnets": {
+        "type": "Array",
+        "value": [
+          {
+            "addressPrefix": "10.10.1.0/24",
+            "name": "snet-web"
+          },
+          {
+            "addressPrefix": "10.10.2.0/24",
+            "name": "snet-app"
+          }
+        ]
+      },
+      "tags": {
+        "type": "Object",
+        "value": {
+          "env": "dev",
+          "project": "iac-foundation"
+        }
+      },
+      "vnetAddressPrefix": {
+        "type": "String",
+        "value": "10.10.0.0/16"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vnet-foundation-dev"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Network",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "indiasouthcentral"
+            ],
+            "properties": null,
+            "resourceType": "virtualNetworks",
+            "zoneMappings": null
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "8188894509847599011",
+    "templateLink": null,
+    "timestamp": "2026-10-19T13:42:09.692949+00:00",
+    "validatedResources": null,
+    "validationLevel": null
+  },
+  "resourceGroup": "rg-iac-bicep-dev",
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}
