@@ -4,3 +4,5 @@
 *.tfplan
 crash.log
 bicep/main.json
+tfplan
+
